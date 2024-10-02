@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/port.css">
+    
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col" id="col1" >
+                        <span class="black">Achal</span><span class="blue">Chawhan</span></div>
+                    <div class="col" id="col4">
+                        <div class="row" id="col2">
+                            <div class="col"><a href="#home">Home</a></div>
+                            <div class="col"> <a href="#about">About </a></div>
+                            <div class="col"><a href="#skills">Skills </a></div>
+                            <div class="col"><a href="#services">Services</a></div>
+                            <div class="col"><a href="#project">Project</a></div>
+                        </div>
+                        <div class="col" id="menu-button">&#9776;</div> <!-- Menu button with 3 lines -->
+                    </div>
+                    <div class="col" id="col3"><i style="color:#007bff; font-size: 18px; margin-left: -20px;" class="fa-regular fa-envelope" ></i>&nbsp;aachalchawhan</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="menuModal" tabindex="-1" aria-labelledby="menuModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="border-radius: 5px; font-family:inherit;"><b>X</b></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex flex-column">
+                        <div><a href="#home" class="nav-link">Home</a></div>
+                        <div><a href="#about" class="nav-link">About</a></div>
+                        <div><a href="#skills" class="nav-link">Skills</a></div>
+                        <div><a href="#services" class="nav-link">Services</a></div>
+                        <div><a href="#project" class="nav-link">Project</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="home">
+
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-6" id="hello">
+                    <h1 id="style" >Hello Mate <img id="img1" src="images/hand.jpg"> </h1>
+                    <h1 id="style1" >I'm Achal Chawhan
+                    a <span class="blue" >Web Developer</span></h1>
+                    <br>
+                    <p >Hi , I'm Achal a freelance web  designer from Nagpur, Maharashtra. I help brands turn their ideas into high quality products.</p>
+                    <br>
+                    
+                    <!-- <button type="button" class="btn btn-primary">Book Call &nbsp; <i style="color:white; font-size: 15px;" class="fa-solid fa-chevron-right"></i></button>&nbsp;&nbsp;&nbsp; -->
+
+                    <a href="contact.html">
+                        <button type="button" class="btn btn-primary">
+                            Book Call &nbsp; <i style="color: white; font-size: 15px;" class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </a>&nbsp;&nbsp;&nbsp;
+                    
+                    <button class="btn btn-primary" onclick="window.open('resume.pdf', '_blank')">
+                        Download CV &nbsp;&nbsp;<i style="color: rgb(255, 255, 255); font-size: 15px;" class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp;
+                    </button>
+                    
+
+                    
+                </div>            
+                <div class="col-6"  id="background">
+                    <img src="achal assets/home-section-img-fully-transparent.png" id="img2">
+                    <img src="achal assets/html5.svg" id="vs">
+                    <img src="achal assets/angular.svg" id="css">
+                    <img src="achal assets/python.svg" id="python">
+                    <img src="achal assets/css3.svg" id="js">
+                    <img src="achal assets/github.svg" id="react">
+                </div>
+    
+            </div>
+        </div>
+    
+    </div>
+    </section>
+
+    <section id="about">
+
+        <div class="container-fluid">
+            <div class="row" >
+               
+                <div class="col-6" id="hello111" ><img id="img3" src="achal assets/about-section-img-transparent-removebg-preview.png">
+                    <div class="circle">
+                      
+                    </div>
+                  </div>
+                
+                
+                <div class="col-6" id="hello11">
+                    <br>
+                    <br>
+                
+                    <h6 id="center">ABOUT ME</h6>
+                    <h1 id="center" style="font-size: 38px;  ">More than 1+ year Programming Experinced  </h1>
+                    <p>I’m a Full Stack Developer with over 1+ year of programming experience, specializing in creating responsive and efficient web applications. My skill set includes HTML, CSS, JavaScript, Python, and Django. I’m passionate about solving complex problems and turning ideas into functional, user-friendly websites. I believe in clean, efficient code and continuously seek to improve my skills. I’m always eager to learn new technologies and stay updated with the latest trends in web development. Let’s collaborate on your next project!</p>
+    
+    
+                    <div class="table-responsive">
+                            <table class="table table-borderless" style="padding: 0px;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p><b>Name:</b> Achal Pushpanand Chawhan </p>
+                                        </td>
+                                        <td>
+                                            <p><b>Location:</b> Bhandara, Maharashtra</p>
+                                        </td>    
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;"><p><b>Email:</b> aachalchawhan14@gmail.com</p></td>
+                                        <td style="text-align: left;"><p><b>Office:</b> Nagpur, Maharashtra</p></td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+    
+                        <!-- Responsive Table for CV and Social Links -->
+                        <div class="table-responsive">
+                            <table class="table table-borderless" style="padding: 10px;">
+                                <tbody>
+                                    <tr>
+                                        <td scope="row">
+                                            
+                                            <button class="btn btn-primary" onclick="window.open('resume.pdf', '_blank')">
+                                                Download CV &nbsp;&nbsp;<i style="color: rgb(255, 255, 255); font-size: 15px;" class="fa-solid fa-download"></i>&nbsp;&nbsp;&nbsp;
+                                            </button>
+                                            
+                                        </td>
+                                        <td><i style="color: black ; margin-top: 10px;" class="fa-solid fa-minus"></i></td>
+                                        <td style="margin-top:12px; font-family:inherit;
+                                        font-weight: 700;">Follow me : &nbsp;
+                                        <a href="https://www.linkedin.com/in/achal-chawhan-070ab924a"><i style="color: black; font-size: 20px;" class="fa-brands fa-linkedin"></i></a>  &nbsp;
+                                        <a href="https://github.com/dashboard"><i  style="color: black; font-size: 20px;" class="fa-brands fa-github"></i></a> &nbsp;
+                                        <a href="mailto:aachalchawhan14@gmail.com" onclick="displayEmail()">
+                                            <i id="email-icon" style="color: black; font-size: 20px;" class="fa-regular fa-envelope"></i>
+                                          </a>  &nbsp;
+                                          <span id="email-text" style="display: none; margin-left: 10px; font-size: 20px;">aachalchawhan14@gmail.com</span>
+                                        <a href="https://wa.me/9307929337"><i style="color: black; font-size: 20px;" class="fa-brands fa-whatsapp"></i></a>
+
+                                        </td> 
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                      <br>
+                      <br>
+                      
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" id="hello3" style="padding-right: 20px;">
+                    <h6 id="center">SKILLSET</h6>
+                    <h1 id="center" style="font-size: 38px;">Creative and Professional Skills Experince on Few Areas</h1>
+                    <p>I specialize in frontend development with HTML, CSS, and JavaScript, creating responsive and interactive user interfaces. As a Python developer, I use Django to build robust, scalable web applications. My web design expertise ensures visually appealing and user-friendly designs. I'm experienced with Git for seamless project collaboration and focus on responsive design for optimal performance across devices. I excel at troubleshooting, optimizing code, and have a solid understanding of database management using MySQL.</p>
+    
+
+                    <a href="contact.html" target="_blank">
+                        <button type="button" class="btn btn-primary">
+                            Start a Project &nbsp; <i style="color: white; font-size: 15px;" class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </a>&nbsp;&nbsp;&nbsp;
+                    
+                    
+    
+                </div>
+                <div class="col-6" id="hello13">
+                    <br>
+                    <br>
+                     <label><b>Web Developer</b></label><br>
+    
+                         <div style="display: flex; align-items: center; gap: 10px;" id="width">
+                            <div class="progress" style="flex-grow: 1; height: 10px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%;"></div>
+                            </div>
+                            &nbsp;
+                            <span style="color: #007bff; font-weight: bold;">75%</span>
+                        </div>
+                        <br><br>
+     
+                        <label><b>Frontend Developer</b></label>
+                         <div style="display: flex; align-items: center; gap: 10px;"  id="width">
+                            <div class="progress" style="flex-grow: 1; height: 10px;" role="progressbar" aria-label="Basic example" aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 53%;"></div>
+                             </div>
+                             &nbsp;
+                             <span style="color: #007bff; font-weight: bold;">53%</span>
+                        </div>
+                        <br><br>
+     
+                        <label><b>Python Developer</b></label>
+                         <div style=" display: flex; align-items: center; gap: 10px;"  id="width">
+                            <div class="progress" style="flex-grow: 1; height: 10px;" role="progressbar" aria-label="Basic example" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 68%;"></div>
+                            </div>
+                            &nbsp;
+                            <span style="color: #007bff; font-weight: bold;">68%</span>
+                        </div>
+                        <br><br>
+                </div>
+    
+            </div>
+        </div>
+        
+    
+    </section>
+    <section id="services">
+        <div class="container-fluid" >
+            <div class="row">
+    
+                     <div class="col-12" id="hello2">
+                        <h6>MY EXPERTISE</h6>
+                        <h1 style="font-size: 38px;"> Awesome Services For You</h1><br>
+                        <div class="row row-cols-1 row-cols-md-3">
+                            <div class="col mb-4">
+                                <div class="card" id="height">
+                                    <div class="card-body" style="text-align: justify;">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"><i class="fa-solid fa-vector-square icon"></i></th>
+                                                    <td>
+                                                        <h5 class="card-title">Web Designer</h5>
+                                                        <p>I design visually stunning and user-friendly websites that enhance user experience and engage visitors effectively.</p>
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card selected" id="height">
+                                    <div class="card-body" style="text-align: justify;">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"><i class="fa-solid fa-pen-to-square icon active-icon"></i></th>
+                                                    <td>
+                                                        <h5 class="card-title">Python Developer</h5>
+                                                        <p>I build robust, scalable web applications using Python and Django, ensuring high performance and reliability.</p>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card" id="height">
+                                    <div class="card-body" style="text-align: justify;">
+                                        <table class="table table-borderless">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row"><i class="fa-solid fa-layer-group icon"></i></th>
+                                                    <td>
+                                                        <h5 class="card-title">Frontend Developer</h5>
+                                                        <p>I craft responsive, interactive UIs with HTML, CSS, and JavaScript for seamless experiences on all devices.</p>
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+    
+            </div>
+        </div>
+    
+    </section>
+    
+    <section id="Education">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6" id="hello3">
+                    <h6 id="center">QUALIFICATION</h6>
+                    <h1 id="center" style="font-size: 38px;">My Education</h1>
+                    <br>
+                    <ul>
+                        <li>
+                            <p><b style="font-size: 21px;">Priyadarshini College of Engineering (2019 - 2023)</b></p>
+                            <p>Graduated with a solid foundation in IT, focusing on software development, algorithms, and web technologies.</p>
+                            <p style="color: #007bff;"><b style=" background-color:#e8eff7; border-radius: 20px; padding: 10px;">&nbsp;&nbsp; Bachelor of Engineering (IT) &nbsp;&nbsp;</b></p>
+                            <br>
+                                
+                        </li>
+                        <li>
+                            <p><b style="font-size: 21px;">Mahila Samaj Jr. College (2018 - 2019)</b></p>
+                            <p>Specialized in Science with a focus on Mathematics and Computer Science, preparing for a career in engineering.</p>
+                            <p style="color: #007bff;"><b style=" background-color:#e8eff7; border-radius: 20px; padding: 10px;">&nbsp;&nbsp; Higher Secondary Certificate &nbsp;&nbsp;</b></p>
+                            <br>
+                        </li>
+                        <li>
+                            <p><b style="font-size: 21px;">Sunflag School (2016 - 2017)</b></p>
+                            <p>Completed secondary education with a strong emphasis on foundational subjects, including Mathematics and Science.</p>
+                            <p style="color: #007bff;"><b style=" background-color:#e8eff7; border-radius: 20px; padding: 10px;">&nbsp;&nbsp; Secondary School Certificate &nbsp;&nbsp;</b></p>
+                            
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="col-6" id="hello112">
+                    <h6 id="center">WORK EXPERINCE</h6>
+                    <h1 id="center" style="font-size: 38px;">My Awesome Experince</h1>
+                    <br>
+                    <ul>
+                        <li><p><b style="font-size: 21px;">VS Informatics Private Limited (2023 - 2024)</b></p>
+                            
+                            <p>During my internship at Anishree Technology LLP, I developed both frontend and backend solutions, working on responsive UIs and robust systems with HTML, CSS, JavaScript, and Python. Collaborating with experienced developers, I honed my full stack development skills and contributed to successful project deliveries.</p>
+                            <p style="color: #007bff;"> <b style=" background-color:#e8eff7; border-radius: 20px; padding: 10px;">&nbsp;&nbsp;Fullstack Developer (Internship) &nbsp;</b></p>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-12" id="hello2">
+                    <div class="card1 bg-white text-black">
+                        <img src="achal assets/contact-us-bg.jpg" id="img6" class="card-img" alt="...">
+                        <div  class="card-img-overlay" style="padding: 70px;">
+                          <h4 class="card-title">Have any Project in Mind ?</h4>
+                          <p class="card-text" style="font-size: 35px; font-weight: bold; font-family: 'Barlow Condensed', sans-serif;">Don't Be Hesitate To Contact  With  Me.</p>
+                          <!-- <a href="https://app.cal.com/event-types" target="_blank"> -->
+                          <a href="contact.html">
+                          <button type="button" class="btn btn-primary" style=" cursor: default;" id="b">Get Quote  &nbsp; <i style="color:white; font-size: 15px;" class="fa-solid fa-chevron-right"></i> &nbsp; </button> 
+                          </a>
+                          
+                        
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="project">
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12" id="hello2">
+                    <h6>Portfolio</h6>
+                    <h1  style="font-size: 38px;">Some Of My Recent Works</h1>
+    
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                          <div class="card">
+                             <a href="https://github.com/achalchawhan/ChillJoy-Delights"><img src="images/i.jpg" class="card-img-top" alt="..." id="img7" ></a>
+                            
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <a href="https://github.com/achalchawhan/website"><img src="images/i2.jpg" class="card-img-top" alt="..." id="img7" ></a>
+                            
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <a href="" ><img src="images/i3.jpg" class="card-img-top" alt="..." id="img7" ></a>
+                            
+                          </div>
+                        </div>
+                        <div class="col mb-4">
+                          <div class="card">
+                            <a href="https://github.com/achalchawhan/Stone_Paper_game"><img src="images/i4.jpg" class="card-img-top" alt="..." id="img7" ></a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section6>
+    
+
+</body>
+
+<footer>
+
+<div class="container-fluid" style="background-color: black;">
+<div class="row">
+    <div class="col-12" id="contact"><h4 style="color: white;">CONTACT ME</h4>
+        <h1  style="font-size: 38px; ">Got a Project ? Let's Talk !</h1>
+    </div>
+</div>
+<br>
+<br>
+
+<div class="row" >
+    <div class="col-6">
+        <div class="socialIcons" >
+            <!-- <a href=""><i class="fa-brands fa-whatsapp"></i></a> &nbsp;
+            <a href=""><i class="fa-brands fa-linkedin"></i></a> &nbsp;
+            <a href=""><i class="fa-brands fa-github"></i></a> &nbsp;
+            <a href=""><i class="fa-brands fa-re"></i></a> &nbsp;
+            <a href=""><i class="fa-brands fa-youtube"></i></a> &nbsp; -->
+            <a href="https://www.linkedin.com/in/achal-chawhan-070ab924a"><i class="fa-brands fa-linkedin"></i></a>  &nbsp;
+            <a href="https://github.com/dashboard"><i  class="fa-brands fa-github"></i></a> &nbsp;
+            <a href="mailto:aachalchawhan14@gmail.com" onclick="displayEmail()"><i id="email-icon" class="fa-regular fa-envelope"></i></a>  &nbsp;
+            <a href="https://wa.me/9307929337"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </div>
+    <div class="col">
+        <div class="footerBottom"><p style="margin-top: 0px; color: white;">&copy; 2024 Portfolio. Powered by Aachal</p></div>
+
+    </div>
+</div>
+</div>
+
+</footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function () {
+            new bootstrap.Modal(document.getElementById('menuModal')).show();
+        });
+
+
+
+
+const cards = document.querySelectorAll('.card');
+
+cards.forEach(function(card) {
+    card.addEventListener('mouseover', function() {
+        // Remove 'selected', 'active-btn', and 'active-icon' from all cards
+        cards.forEach(function(c) {
+            c.classList.remove('selected');
+            const btn = c.querySelector('.custom-btn');
+            const icon = c.querySelector('.icon');
+            if (btn) btn.classList.remove('active-btn');
+            if (icon) icon.classList.remove('active-icon');
+        });
+
+        // Add 'selected', 'active-btn', and 'active-icon' to the clicked card
+        this.classList.add('selected');
+        const btn = this.querySelector('.custom-btn');
+        const icon = this.querySelector('.icon');
+        if (btn) btn.classList.add('active-btn');
+        if (icon) icon.classList.add('active-icon');
+    });
+});
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
+
